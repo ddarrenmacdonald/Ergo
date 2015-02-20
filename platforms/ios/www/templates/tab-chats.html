@@ -1,7 +1,31 @@
 <ion-view view-title="Assessment">
- 
-<ion-content>
-      <!-- Data Collection Information -->
+
+<body ng-app="" ng-controller="formController">
+<ion-content padding="true">
+  
+  <form novalidate>
+    Patella Height:<br>
+    <input type="number" ng-model="user.knee"><br>
+    Seated Elbow Height:<br>
+    <input type="number" ng-model="user.elbow"><br>
+    Workstation Height:<br>
+    <input type="number" ng-model="user.workstation"><br>
+    Input Device Height:<br>
+    <input type="number" ng-model="user.inputdev"><br>
+    Seated Eye Height:<br>
+    <input type="number" ng-model="user.eye"><br>
+    Monitor Height:<br>
+    <input type="number" ng-model="user.monitor"><br>
+
+    <br>
+
+    <button ng-click="reset()">RESET</button>
+  </form>
+
+</div>
+
+
+      <!-- Data Collection Information 
       <label class="item item-input">
       <span class="input-label">Position</span>
       <input type="text">
@@ -36,10 +60,10 @@
       <span class="input-label">Monitor Height</span>
       <input type="number">
       </label>
-      
+      -->
 
-      </ion-content>
-        
+</ion-content>
+</body>
 <!-- Template Information
   <ion-content>
     <ion-list>
