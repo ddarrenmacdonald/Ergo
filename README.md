@@ -5,4 +5,4 @@ The project is will be used to conduct office ergonomics assessemnts.  There wil
 	2) Capture physical assessment information and 
 	3) Recommendations based on the information provided during the physical assessment.
 
-Once a MVP is produced, the Ergonomics Lab at Queen's University is going to test the app during their field assessments and provide feedback.
+Once a MVP is produced, the Ergonomics Lab at Queen's University is going to test the app during their field assessments and provide feedback.  The final "beta" app should be available the 2nd week of March.
